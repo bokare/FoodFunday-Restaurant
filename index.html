@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food FunDay Restaraunt</title>
+    <link rel="shortcut icon" href="images\food.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</head>
+
+<body>
+
+    <div class="card text-bg-dark mb-5">
+        <img src="images\banner.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <div class='outer mb-3' id="outer">
+                <nav id="navbar-example2" class="navbar px-5 container ">
+                    <a class="navbar-brand" href="#"><img src="images\logo.png" alt=""></a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#HOME">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ABOUT-US">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#MENU">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#TEAM">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#GALLERY">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#BLOG">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#PRICING">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#RESERVAION">RESERVAION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#CONTACT US">CONTACT US</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h5 id="HOME" class="card-title text-center display-1 mt-5 ">Dinner with us <span id="element"></span></h5>
+            <p class="card-text text-center display-4" style="color: orangered;">Accidental appearances</p>
+            <p class="text-center h4"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy
+                    nibh euismod</small></p>
+            <button class="book-table mx-auto d-block mb-5">BOOK MY TABLE</button>
+            <div class="toggle py-2">
+                <div class="toggle-btn">
+                    <div class="movable-square"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- scrollspy : bootstrap : https://getbootstrap.com/docs/5.3/components/scrollspy/ -->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example rounded-2" tabindex="0">
+
+        <!-- About us -->
+        <div class="container about-us d-flex flex-wrap justify-content-between py-5 my-5" style="width: 80%;">
+            <div class="left" style="width: 50%;">
+                <h1 id="ABOUT-US" class="sub-head ">About Us</h1>
+                <h5 class="text-bold"> <strong>IT STARTED, QUITE SIMPLY, LIKE THIS...</strong></h5>
+                <p style="width: 100%; font-family: Arial, Helvetica, sans-serif; font-weight: 200;">Lorem ipsum
+                    dolor
+                    sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua.
+                    Ut
+                    enim ad minim venia, nostrud exercitation ullamco.
+                    <br><br>
+                    Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient
+                    montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor
+                    penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec,
+                    pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis
+                    fauci Nullam quis ante. Etiam sit amet rci eget eros.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco.
+                </p>
+            </div>
+            <div class="right mx-2">
+                <div class="d-flex justify-content-evenly px-4" style="position: relative;">
+                    <img src="images\about-main.jpg" alt="" class="about-img rounded-circle">
+                    <img src="images\about-inset.jpg" class="rounded-circle z-5"
+                        style="position: absolute; left: 330px; " alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Today's Special -->
+        <div class="today-special my-5 py-3 ">
+            <div class="card text-bg-dark ">
+                <img src="images\special_menu_bg.jpg" class="card-img h-90 " alt="...">
+                <div class="card-img-overlay py-5">
+                    <h5 class="sub-head card-title text-center my-3" style="color: orangered;">Today's Special</h5>
+                    <p class="text-center h5 my-5"><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed
+                            do eiusm incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim
+                            venia,nostrud
+                            exercitation ullamco.</small></p>
+                    <div class="main">
+                        <div class="slider slide-show">
+                            <div class="img-wish">
+                                <img src="images\special-menu-1.jpg">
+                            </div>
+                            <div class="img-wish">
+                                <img src="images\special-menu-2.jpg">
+                            </div>
+                            <div class="img-wish">
+                                <img src="images\special-menu-3.jpg">
+                            </div>
+                            <div class="img-wish">
+                                <img src="images\special-menu-1.jpg">
+                            </div>
+                            <div class="img-wish">
+                                <img src="images\special-menu-2.jpg">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- our menu -->
+        <div class="our-menu my-5 py-3">
+            <h4 id="MENU" class="sub-head text-center my-3">Our Menu</h4>
+            <p class="text-center h5 opacity-50 my-3">There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration
+                in <br> some form, by injected humour, or randomised words which don't look even slightly believable.
+            </p>
+            <!-- nav & tabs :  https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior -->
+            <div class="container my-5 " id="our-menu-block">
+                <ul class="nav nav-pills nav-fill mb-3 border-bottom" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active pb-4" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">
+                            <p class="h4 border-bottom border-2 pb-3 mb-3">STARTERS</p>
+                            <!-- <div class="line border border-black my-3"></div> -->
+                            <img src="images\maindishes.png" alt="" class="mx-3" height="85">
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link pb-4" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">
+                            <p class="h4 border-bottom border-2 pb-3 mb-3">MAIN DISHES</p>
+                            <!-- <div class="line border border-black my-3"></div> -->
+                            <img src="images\dinner (1).png" alt="" class="mx-3" height="85">
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link pb-4" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">
+                            <p class="h4 border-bottom border-2 pb-3 mb-3 ">DESERTS</p>
+                            <!-- <div class="line border border-black my-3"></div> -->
+                            <img src="images\desert.png" alt="" class="mx-3" height="85">
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link pb-4" id="pills-disabled-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled"
+                            aria-selected="false">
+                            <p class="h4 border-bottom border-2 pb-3 mb-3">DRINKS</p>
+                            <!-- <div class="line border border-black my-3"></div> -->
+                            <img src="images\coffee-cup.png" alt="" class="mx-3" height="85">
+                        </button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="row p-4 gap-4">
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-01.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h2 class="din txt">GARLIC BREAD</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-55 w-55 text-center rounded-circle border border-danger p-4">
+                                        <h3 class="my-2">$8.5</h3>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-03.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">BBQ CHICKEN WINGS</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-4">
+                                        <h3 class="my-2">$10</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-02.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">MIXED SALAD</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-4">
+                                        <h3 class="my-2">$25</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <div class="row p-4 gap-4">
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-04.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">MEAT FEAST PIZZA</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-3">
+                                        <h3>$5</h3>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-06.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">SPICY MEATBALLS</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-3">
+                                        <h3>$6.5</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-05.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">CHICKEN TIKKA MASALA</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-3">
+                                        <h3>$15</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div class="row p-4 gap-4">
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-04.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">MEAT FEAST PIZZA</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-3">
+                                        <h3>$5</h3>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-06.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">SPICY MEATBALLS</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-3">
+                                        <h3>$6.5</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="images/menu-item-thumbnail-05.jpg" alt="..."
+                                            class="rounded-circle border border-white border-5">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h3 class="din txt">CHICKEN TIKKA MASALA</h3>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Optio harum placeat eum.</p>
+                                    </div>
+                                    <div class="h-25 w-25 text-center rounded-circle border border-danger p-3">
+                                        <h3>$15</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                        tabindex="0">.4.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 id="MENU">Third heading</h4>
+        <p></p>
+        <h4 id="TEAM">Fourth heading</h4>
+        <p></p>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>...</p>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+
+        $('.slide-show').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+        var typed = new Typed('#element', {
+            strings: ['Friends', 'Officemates', 'family'],
+            typeSpeed: 50,
+            backspeed: 150,
+            loop: true
+        });
+
+        var navbar = document.getElementById('outer');
+        var isNavbarSticky = false;
+
+        window.onscroll = function () {
+            console.log(window.pageYOffset);
+
+            if (window.pageYOffset >= 100 && !isNavbarSticky) {
+                console.log("back");
+                navbar.classList.add('sticky-nav');
+                navbar.style.position = 'fixed';
+                isNavbarSticky = true;
+            } else if (window.pageYOffset == 0 && isNavbarSticky) {
+                console.log("up");
+                navbar.classList.remove('sticky-nav');
+                navbar.style.position = 'relative';
+                isNavbarSticky = false;
+            }
+        };
+    </script>
+</body>
+
+</html>

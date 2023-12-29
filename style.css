@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-item a:link,
+a:visited {
+    color: white;
+}
+
+.card-title,
+.card-text {
+    font-weight: 900;
+    font-family: Monotype Corsiva;
+    font-style: oblique;
+}
+
+.sub-head {
+    font-weight: 900;
+    font-family: Monotype Corsiva;
+    font-style: oblique;
+    color: orangered;
+    font-size: 4em;
+}
+
+#element {
+    color: orangered
+}
+
+.about-us img {
+    border: 10px solid rgb(234, 227, 227);
+}
+
+#outer {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sticky-nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 5;
+}
+
+.sticky-nav .navbar-brand img {
+    height: 40px;
+}
+
+.book-table {
+    color: white;
+    padding: 15px 30px;
+    background-color: orangered;
+    font-size: larger;
+    font-weight: 500;
+    border: none;
+    margin-top: 35px;
+}
+
+.book-table:hover {
+    border: 2px solid orangered;
+    background-color: transparent;
+    border-bottom: 5px solid orangered;
+}
+
+.toggle-btn {
+    height: 120px;
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.movable-square {
+    height: 15px;
+    width: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation-name: animate1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+
+@keyframes animate1 {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 30px;
+        opacity: 0;
+    }
+}
+
+
+.main,.our-menu{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: fit-content;
+
+}
+
+.img-wish {
+    text-align: center !important;
+    padding: 0 20px;
+}
+
+.img-wish img {
+    width: 100%;
+    border: 5px solid white;
+}
+
+
+.our-menu .nav-pills .nav-link{
+    color:black
+}
+
+.our-menu .nav-pills .nav-link.active{
+    background-color: orangered;
+}
+/* -bs-nav-pills-link-active-bg: #0dfd37 */
+
+.tab-content img{
+    border: 10px solid white !important;
+} 
+.din{
+    font-weight:700;
+    font-family: Monotype Corsiva;
+    color: orangered;
+}
+#our-menu-block{
+    background-color: rgb(248, 249, 248);
+}
