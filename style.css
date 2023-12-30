@@ -142,3 +142,13 @@ a:visited {
 #our-menu-block{
     background-color: rgb(248, 249, 248);
 }
+
+.our-team .card-title{
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.our-team .card-texts{
+    font-weight: 400;
+    text-align: center;
+}
